@@ -1,5 +1,9 @@
 * {
   color: rgba(255, 255, 255, 1);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5;
 }
 
 nav {
@@ -10,7 +14,7 @@ nav {
   padding: 0;
 }
 
-.coloredIcon {
+.colored-icon {
   color: #359DDB
 }
 
@@ -22,10 +26,6 @@ nav {
 }
 
 .drop-downs {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 1.5;
   margin-top: 0;
 }
 
@@ -59,8 +59,14 @@ body {
 .flower {
   margin-top: 1em;
   font-size: 2em;
+  color: pink;
 }
 
 .colored-word {
   color: #9D9D9E;
+}
+
+h2 {
+  color: #4D4D4D;
+  font-size: 3em;
 }
