@@ -6,20 +6,32 @@ nav {
   background-color: black;
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
-.material-icons {
-  color: rgba(255, 255, 255, 1);
+.coloredIcon {
+  color: #359DDB
 }
 
 .company-logo {
+  margin-top: 0;
+  /* margin-bottom: 0 */
   font-family: 'Fjalla One', sans-serif;
+  font-size: 2em;
+
 }
 
 .drop-downs {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  font-size: 1em;
   line-height: 1.5;
+  margin-top: 0;
+}
+
+.left-dropdown {
+  margin-right: 1em;
 }
 
 .nav-icons,
@@ -27,5 +39,10 @@ nav {
 .username {
   display: flex;
 }
+.left-nav {
+  margin-top:4em;
+}
 
-.
+body {
+  background-color: #EFEFEF;
+}
