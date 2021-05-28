@@ -1,0 +1,31 @@
+*{
+  color: rgba(255, 255, 255, 1);
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-icons {
+  color: rgba(255, 255, 255, 1);
+}
+
+.company-logo {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.drop-downs {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.nav-icons,
+.left-nav,
+.username {
+  display: flex;
+}
+
+.
