@@ -67,7 +67,7 @@ body {
 .flower {
   margin-top: 1em;
   font-size: 2em;
-  color: pink;
+  color: #359DDB
 }
 
 .colored-word {
@@ -77,6 +77,7 @@ body {
 h2 {
   color: #4D4D4D;
   font-size: 3em;
+  padding:25px;
 }
 
 .card-section {
@@ -145,6 +146,7 @@ h2 {
 .view-number {
   font-size: 3em;
   margin-top: 0;
+  color: #FFFFFF;
 }
 
 .views {
@@ -152,6 +154,7 @@ h2 {
   margin-top:0;
   font-size: 1.5em;
   padding: 0;
+  color: #FFFFFF;
 }
 
 .card-body {
@@ -171,11 +174,13 @@ h2 {
 
 p {
     color: #7F7F7F;
+    margin-bottom: 0;
 }
 
 .card-title {
   font-weight: bold;
   margin-bottom: 0;
+  color: #616161;
 }
 
 .card-date {
@@ -186,6 +191,32 @@ p {
 .link {
   padding: 5px;
   font-size: 1em;
+}
+
+.card-playlist {
+  position: absolute;
+  grid-area: 4/1/5/2;
+  top: 30px;
+}
+
+.playlist {
+  color: #616161;
+  font-size: .7em;
+  margin-top: 25px;
+}
+.playlist-name {
+  margin-top: 0;
+}
+
+.card-attachments {
+  position: absolute;
+  grid-area: 5/1/6/2;
+}
+
+.attachment-number{
+  margin-top: 0;
+  font-size: 2em;
+  color: #359DDB
 }
 /* .card-section {
   display: grid;
