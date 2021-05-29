@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html land='en'>
 <head>
+  <meta charset=“UTF-8”>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset=“UTF-8”>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <meta charset=“UTF-8”>
   <title>Static-Comp</title>
 </head>
 <nav>
   <section class="left-nav">
     <div class="nav-icons">
-      <span class="material-icons ">share</span>
+      <!-- <span class="material-icons ">share</span> -->
       <h1 class="drop-downs left-dropdown">SHARES</h1>
     </div>
     <div class="nav-icons">
-      <span class="material-icons colored-icon">favorite_border</span>
+      <!-- <span class="material-icons colored-icon" alt="heart icon">favorite_border</span> -->
       <h1 class="drop-downs left-dropdown colored-word">PLAYLISTS</h1>
     </div>
     <div class="nav-icons">
-      <span class="material-icons colored-icon">person_outline</span>
+      <!-- <span class="material-icons colored-icon">person_outline</span> -->
       <h1 class="drop-downs left-dropdown colored-word">PERSONAL VIDEOS</h1>
     </div>
   </section>
   <section class="right-nav">
     <div class="nav-icons username">
-      <span class="material-icons colored-word">account_circle</span>
+      <!-- <span class="material-icons colored-word">account_circle</span> -->
       <h1 class="drop-downs colored-icon">Admin Username</h1>
       <span class="material-icons coloredIcon">arrow_drop_down</span>
     </div>
@@ -39,5 +42,36 @@
 </nav>
 <body>
   <h2>Shares</h2>
+  <section class="card-section">
+    <article class="card-container">
+      <div class="image-container">
+        <img class="card-image" src="assets/berkeley.jpeg" alt="pic of berkeley">
+      </div>
+      <div class="card-header">
+        <span class="card-icon">
+          <span class="material-icons reply-icon">reply</span>
+        </span>
+        <span class="views-container">
+          <p class="views">VIEWS</p>
+          <p class="view-number">01</p>
+        </span>
+      </div>
+      <div class="card-body">
+        <p class="card-title">Recipient's Namehere</p>
+        <p class="card-date">Monday 01/23/16 10:22am</p>
+      </div>
+      <div class= "card-link">
+        <p class="link">http://2win.2winstage.com/p/recipients_namehere</p>
+      </div>
+      <div class="card-playlist">
+        <p class="playlist">PLAYLIST</p>
+        <p class="playlist-name">Name of Playlist</p>
+      </div>
+      <div class="card-attachments">
+        <p class="attachment">ATTACHMENTS</p>
+        <p class="attachment-number">04</p>
+      </div>
+    </article>
+  </section>
 </body>
 </html>
