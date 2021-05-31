@@ -4,7 +4,7 @@ The Static comp challenge was to re-create a webpage based off off the provided 
 
 ## Overview
 
-Deployed Page(https://sydnerd.github.io/static-comp/)
+[Deployed Page](https://sydnerd.github.io/static-comp/)
 
 ## Original comp
 ![](assets/original.png)
